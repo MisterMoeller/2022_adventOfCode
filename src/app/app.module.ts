@@ -27,6 +27,7 @@ import {Day22Component} from './components/day22/day22.component';
 import {Day23Component} from './components/day23/day23.component';
 import {Day24Component} from './components/day24/day24.component';
 import {Day1Component} from "./components/day1/day1.component";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import {Day1Component} from "./components/day1/day1.component";
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
