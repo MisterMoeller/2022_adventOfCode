@@ -1,1 +1,9 @@
-<p>day14 works!</p>
+<h1>Lösung1: {{loesung_1}} Sandkörner</h1>
+<h1>Lösung1: {{loesung_2}} Sandkörner</h1>
+<div style="display: flex; flex-direction: row">
+  <div *ngFor="let column of area" style="display: flex; flex-direction: column">
+  <span *ngFor="let point of column">
+    {{point.content}}
+  </span>
+  </div>
+</div>
